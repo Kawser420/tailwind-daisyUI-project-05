@@ -493,9 +493,67 @@
           Frequently Asked <span class="text-orange-500">Questions</span>
         </h1>
         <!-- FAQ Question container  -->
+        <!------------------------- I Don't Know Tailwind CSS and daisyUI Style Not Working----------------------------->
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title font-semibold">
+            How do I create an account?
+          </div>
+          <div class="collapse-content text-sm">
+            Click the "Sign Up" button in the top right corner and follow the
+            registration process.
+          </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title font-semibold">
+            I forgot my password. What should I do?
+          </div>
+          <div class="collapse-content text-sm">
+            Click on "Forgot Password" on the login page and follow the
+            instructions sent to your email.
+          </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title font-semibold">
+            How do I update my profile information?
+          </div>
+          <div class="collapse-content text-sm">
+            Go to "My Account" settings and select "Edit Profile" to make
+            changes.
+          </div>
+        </div>
       </section>
     </main>
     <!-- Footer Section -->
-    <footer></footer>
+    <footer class="text-white bg-black p-10">
+      <div
+        class="flex flex-col md:flex-row lg:flex-row items-center justify-center md:justify-evenly lg:justify-around"
+      >
+        <div class="mb-5">
+          <!-- nav-title -->
+          <aside>
+            <p>
+              ACME Industries Ltd.
+              <br />
+              Providing reliable tech since 1992
+            </p>
+          </aside>
+        </div>
+        <div>
+          <!-- nav contact  -->
+          <nav>
+            <h6 class="footer-title">Get The App</h6>
+            <div class="grid grid-cols-1 gap-4">
+              <a
+                ><img class="w-36" src="./images/others/android.png" alt=""
+              /></a>
+              <a> <img class="w-36" src="./images/others/ios.png" alt="" /> </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
